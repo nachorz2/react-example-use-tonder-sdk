@@ -34,7 +34,6 @@ export const Checkout = () => {
                     quantity: product.quantity
                 }
             })
-            console.log(_tonderCart)
             tonderCheckout.setOrder({products: _tonderCart})
         }
         setOrder()
