@@ -14,8 +14,6 @@ export const Checkout = () => {
     const config = {
         apiKey: "f4ab1f9140ce5b17a1bbd0b62b7f949cdd18967b",
         type: "payment",
-        backgroundColor: "#80ADA0",
-        color: "#F3F7F6",
         cb: receiveResponse,
     }
     const tonderCheckout = new TonderCheckout(config)
@@ -49,6 +47,7 @@ export const Checkout = () => {
             <div id="tonder-checkout">
             </div>
             <p>{checkoutResponse?.data?.status}</p>
+            <button onClick={()=>{ console.log(tonderCheckout.getUrlParams())}}>Get url params</button>
         </div>
     )
 }

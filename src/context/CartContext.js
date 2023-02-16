@@ -80,11 +80,15 @@ export function CartProvider({children}) {
     }
 
     function getTotalCost() {
+        var formatter = new Intl.NumberFormat('es-MX', {
+            style: 'currency',
+            currency: 'MXN'
+        });
         let totalCost = 0;
         cartProducts.forEach((cartItem) => {
             totalCost += (cartItem.price * cartItem.quantity);
         });
-        return totalCost;
+        return formatter.format(totalCost);
     }
 
     const contextValue = {
