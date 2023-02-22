@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.72717feb.css",
-    "main.js": "/static/js/main.3ed69767.js",
-    "static/js/787.b83ed06f.chunk.js": "/static/js/787.b83ed06f.chunk.js",
-    "index.html": "/index.html",
-    "main.72717feb.css.map": "/static/css/main.72717feb.css.map",
-    "main.3ed69767.js.map": "/static/js/main.3ed69767.js.map",
-    "787.b83ed06f.chunk.js.map": "/static/js/787.b83ed06f.chunk.js.map"
+    "main.css": "/react-example-use-tonder-sdk/static/css/main.72717feb.css",
+    "main.js": "/react-example-use-tonder-sdk/static/js/main.82d92916.js",
+    "static/js/787.b83ed06f.chunk.js": "/react-example-use-tonder-sdk/static/js/787.b83ed06f.chunk.js",
+    "index.html": "/react-example-use-tonder-sdk/index.html",
+    "main.72717feb.css.map": "/react-example-use-tonder-sdk/static/css/main.72717feb.css.map",
+    "main.82d92916.js.map": "/react-example-use-tonder-sdk/static/js/main.82d92916.js.map",
+    "787.b83ed06f.chunk.js.map": "/react-example-use-tonder-sdk/static/js/787.b83ed06f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72717feb.css",
-    "static/js/main.3ed69767.js"
+    "static/js/main.82d92916.js"
   ]
 }
