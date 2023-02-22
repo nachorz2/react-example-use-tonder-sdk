@@ -10,16 +10,16 @@ const ProductCard = (props) => {
     const cart = useContext(CartContext)
 
     return (
-        <div className=''>
-            <button 
+        <div className='grid grid-cols-1 p-2 '>
+            <button className='rounded-xl text-white bg-blue-500'
              onClick={() => cart.removeOneFromCart(product.id)}>
                 Remove
             </button>
-            <div>
+            <div className='text-xl '>
                 { product.title }
-            </div>
+            </div >
             { product.price }
-            <button
+            <button  className='rounded-xl text-white bg-blue-500'
                 onClick={() => cart.addOneToCart(product.id)}
             >
                 Add

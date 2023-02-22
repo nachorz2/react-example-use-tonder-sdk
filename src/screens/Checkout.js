@@ -1,4 +1,5 @@
 import React, { useState, useLayoutEffect, useContext, useEffect } from 'react'
+
 import { Checkout as TonderCheckout } from 'tonder-sdk-test'
 
 import { CartContext } from '../context/CartContext'
@@ -44,11 +45,11 @@ export const Checkout = () => {
 
     return (
         <div>
-            <h1>Checkout</h1>
-            <div id="tonder-checkout">
+            <h1 className='text-xl text-bold '>Checkout</h1>
+            <div className='w-1/3 justify-center' id="tonder-checkout">
             </div>
             <p>{checkoutResponse?.data?.status}</p>
-            <button className='bg-black text-white' onClick={()=>{ console.log(tonderCheckout.getUrlParams())}}>Get url params</button>
+            {/* <button className='bg-black text-white' onClick={()=>{ console.log(tonderCheckout.getUrlParams())}}>Get url params</button> */}
         </div>
     )
 }

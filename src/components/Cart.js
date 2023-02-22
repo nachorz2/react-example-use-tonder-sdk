@@ -11,7 +11,7 @@ const Cart = () => {
 
     return (
         <>
-            <h3>Cart</h3>
+            <h3 className='text-bold text-center'>Cart</h3>
             <div>
                 { cart.items.map((product, index) => {
                     return (
@@ -22,7 +22,7 @@ const Cart = () => {
                         </div>
                     )
                 })}
-                <div>
+                <div className='text-xl text-bold'>
                     Total: {cart.getTotalCost()}
                 </div>
             </div>
