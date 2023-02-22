@@ -12,7 +12,8 @@ export const Checkout = () => {
         setCheckoutResponse(data)
     }
     const config = {
-        apiKey: "f4ab1f9140ce5b17a1bbd0b62b7f949cdd18967b",
+        url: "http://localhost:8080/#/",
+        apiKey: "e0f89d5328398b93634f56ba06c9474ec9388d5e",
         type: "payment",
         cb: receiveResponse,
     }

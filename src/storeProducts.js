@@ -2,7 +2,7 @@ const productsArray = [
     {
         id: "price_1LnUTFDM1jwCEz8OGoOSXiSM",
         title: "Banana",
-        price: 4.99
+        price: 5.99
     },
     {
         id: "price_1LnUTxDM1jwCEz8OAqHYTwKQ",
@@ -12,7 +12,7 @@ const productsArray = [
     {
         id: "price_1LnUUoDM1jwCEz8OvxIcJ7to",
         title: "Apple",
-        price: 39.99
+        price: 40.99
     }
 ];
 
