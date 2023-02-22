@@ -10,7 +10,11 @@ const ProductCard = (props) => {
     const cart = useContext(CartContext)
 
     return (
-        <div>
+        <div className=''>
+            <button 
+             onClick={() => cart.removeOneFromCart(product.id)}>
+                Remove
+            </button>
             <div>
                 { product.title }
             </div>
