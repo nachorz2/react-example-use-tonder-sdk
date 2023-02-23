@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-example-use-tonder-sdk/static/css/main.72717feb.css",
-    "main.js": "/react-example-use-tonder-sdk/static/js/main.82d92916.js",
+    "main.css": "/react-example-use-tonder-sdk/static/css/main.856ab2e7.css",
+    "main.js": "/react-example-use-tonder-sdk/static/js/main.b9debabc.js",
     "static/js/787.b83ed06f.chunk.js": "/react-example-use-tonder-sdk/static/js/787.b83ed06f.chunk.js",
     "index.html": "/react-example-use-tonder-sdk/index.html",
-    "main.72717feb.css.map": "/react-example-use-tonder-sdk/static/css/main.72717feb.css.map",
-    "main.82d92916.js.map": "/react-example-use-tonder-sdk/static/js/main.82d92916.js.map",
+    "main.856ab2e7.css.map": "/react-example-use-tonder-sdk/static/css/main.856ab2e7.css.map",
+    "main.b9debabc.js.map": "/react-example-use-tonder-sdk/static/js/main.b9debabc.js.map",
     "787.b83ed06f.chunk.js.map": "/react-example-use-tonder-sdk/static/js/787.b83ed06f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72717feb.css",
-    "static/js/main.82d92916.js"
+    "static/css/main.856ab2e7.css",
+    "static/js/main.b9debabc.js"
   ]
 }
