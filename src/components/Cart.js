@@ -11,8 +11,8 @@ const Cart = () => {
 
     return (
         <>
-            <h3 className='text-bold text-center'>Cart</h3>
-            <div>
+            <h3 className='text-bold font-bold text-center w-1/3 flex justify-center'>Cart</h3>
+            <div className='w-1/3 flex justify-center'>
                 { cart.items.map((product, index) => {
                     return (
                         <div key={index}>

@@ -14,7 +14,7 @@ export const Checkout = () => {
     }
     const config = {
         // url: "http://localhost:8080/#/",
-        apiKey: "e0f89d5328398b93634f56ba06c9474ec9388d5e",
+        apiKey: "88eb1d76d3f7b5c429ac8674f8c84f6bee6e7f6a",
         type: "payment",
         cb: receiveResponse,
     }
@@ -45,8 +45,8 @@ export const Checkout = () => {
 
     return (
         <div>
-            <h1 className='text-xl text-bold '>Checkout</h1>
-            <div className='w-1/3 justify-center' id="tonder-checkout">
+          
+            <div className='w-1/3 flex justify-center' id="tonder-checkout">
             </div>
             <p>{checkoutResponse?.data?.status}</p>
             {/* <button className='bg-black text-white' onClick={()=>{ console.log(tonderCheckout.getUrlParams())}}>Get url params</button> */}

@@ -11,15 +11,17 @@ const ProductCard = (props) => {
 
     return (
         <div className='grid grid-cols-1 p-2 '>
-            <button className='rounded-xl text-white bg-blue-500'
+            <button className='w-1/3 flex justify-center rounded-xl text-white bg-blue-500'
              onClick={() => cart.removeOneFromCart(product.id)}>
                 Remove
             </button>
-            <div className='text-xl '>
+            <div className='w-1/3 flex justify-center text-xl '>
                 { product.title }
             </div >
+            <div className='w-1/3 flex justify-center'>
             { product.price }
-            <button  className='rounded-xl text-white bg-blue-500'
+            </div>
+            <button  className='w-1/3 flex justify-center rounded-xl text-white bg-blue-500'
                 onClick={() => cart.addOneToCart(product.id)}
             >
                 Add
